@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Clustering</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>LS2jC6cYXxVhdqkTUAvhKBFRso4=5/14/2023 5:50:13 PM5/14/2023 5:50:13 PM</TimeStamp>
+        <ID>
+          <String>AdventureWorksDW2019_Sources</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>eOYMXb/dGJTqLZUpXl2+WFmTXIY=5/24/2023 12:49:46 PM5/24/2023 12:49:46 PM</TimeStamp>
+        <ID>
+          <String>PeopleCollect_Sources</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DKyfTG2sXfAdKxpvJ42WhMWGZKo=5/14/2023 5:52:18 PM5/14/2023 5:52:18 PM</TimeStamp>
+        <ID>
+          <String>AdventureWorksDW2019_Views</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>IQ6xrJn3CO2Z/o60Zjegb2cu5BY=5/24/2023 12:50:02 PM5/24/2023 12:50:01 PM</TimeStamp>
+        <ID>
+          <String>DecisionTrees</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>7Fat3bYIC6gN9b1wjqMdEHMzodA=5/23/2023 11:18:55 PM5/14/2023 6:03:50 PM</TimeStamp>
+        <ID>
+          <String>v Target Mail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>omWJA6JnQFZmgG/bbrkAzDTYT74=5/23/2023 11:40:14 PM5/17/2023 12:06:02 PM</TimeStamp>
+        <ID>
+          <String>LinearRegression</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>wIYi6vJPaqIIPixuM7Q2yOxGGM4=5/24/2023 12:51:50 PM5/24/2023 12:51:02 PM</TimeStamp>
+        <ID>
+          <String>IncomeTrees</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>E0Tnrnoc3c/pR+lKE9LnfoDprDU=5/17/2023 12:41:44 PM5/14/2023 5:45:51 PM</TimeStamp>
+      <ID>
+        <String>Clustering</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-24T05:56:48.356667Z</LastDeployed>
+</DeploymentSnapshot>
